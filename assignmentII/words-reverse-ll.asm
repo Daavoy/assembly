@@ -21,7 +21,7 @@ _start:
       call reverseInputLines
     ; sys_exit system call
    
-
+      
       mov eax,1       ;system call number (sys_exit)
       mov ebx,0
       int 0x80 
